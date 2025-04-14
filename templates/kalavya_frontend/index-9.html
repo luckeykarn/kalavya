@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,7 +11,7 @@
     <meta name="description" content="kalavya">
     <meta name="keywords" content="kalavya">
     <meta name="author" content="kalavya">
-    <link rel="icon" href="/static/frontend_assets/images/favicon/7.png" type="image/x-icon">
+    <link rel="icon" href="{% static 'frontend_assets/images/favicon/7.png' %} " type="image/x-icon">
     <title>On-demand last-mile delivery</title>
 
     <!-- Google font -->
@@ -26,17 +27,17 @@
         href="https://fonts.googleapis.com/css2?family=Great+Vibes&amp;family=Qwitcher+Grypen:wght@400;700&amp;display=swap">
 
     <!-- bootstrap css -->
-    <link id="rtl-link" rel="stylesheet" type="text/css" href="/static/frontend_assets/css/vendors/bootstrap.css">
+    <link id="rtl-link" rel="stylesheet" type="text/css" href="{% static 'frontend_assets/css/vendors/bootstrap.css' %}">
 
     <!-- wow css -->
-    <link rel="stylesheet" href="/static/frontend_assets/css/animate.min.css">
+    <link rel="stylesheet" href="{% static 'frontend_assets/css/animate.min.css' %}">
 
     <!-- Iconly css -->
-    <link rel="stylesheet" type="text/css" href="/static/frontend_assets/css/bulk-style.css">
-    <link rel="stylesheet" type="text/css" href="/static/frontend_assets/css/vendors/animate.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'frontend_assets/css/bulk-style.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'frontend_assets/css/vendors/animate.css' %}">
 
     <!-- Template css -->
-    <link id="color-link" rel="stylesheet" type="text/css" href="/static/frontend_assets/css/style.css">
+    <link id="color-link" rel="stylesheet" type="text/css" href="{% static 'frontend_assets/css/style.css' %}">
 </head>
 
 <body class="theme-color-5">
@@ -95,28 +96,28 @@
                                 <div class="dropdown theme-form-select">
                                     <button class="btn dropdown-toggle" type="button" id="select-language"
                                         data-bs-toggle="dropdown">
-                                        <img src="/static/frontend_assets/images/country/united-states.png"
+                                        <img src="{% static 'frontend_assets/images/country/united-states.png' %}"
                                             class="img-fluid blur-up lazyload" alt="">
                                         <span>English</span>
                                     </button>
                                     <ul class="dropdown-menu dropdown-menu-end">
                                         <li>
                                             <a class="dropdown-item" href="javascript:void(0)" id="english">
-                                                <img src="/static/frontend_assets/images/country/united-kingdom.png"
+                                                <img src="{% static 'frontend_assets/images/country/united-kingdom.png' %}"
                                                     class="img-fluid blur-up lazyload" alt="">
                                                 <span>English</span>
                                             </a>
                                         </li>
                                         <li>
                                             <a class="dropdown-item" href="javascript:void(0)" id="france">
-                                                <img src="/static/frontend_assets/images/country/germany.png"
+                                                <img src="{% static 'frontend_assets/images/country/germany.png' %}"
                                                     class="img-fluid blur-up lazyload" alt="">
                                                 <span>Germany</span>
                                             </a>
                                         </li>
                                         <li>
                                             <a class="dropdown-item" href="javascript:void(0)" id="chinese">
-                                                <img src="/static/frontend_assets/images/country/turkish.png"
+                                                <img src="{% static 'frontend_assets/images/country/turkish.png' %}"
                                                     class="img-fluid blur-up lazyload" alt="">
                                                 <span>Turki</span>
                                             </a>
@@ -161,7 +162,7 @@
                                 </span>
                             </button>
                             <a href="index.html" class="web-logo nav-logo">
-                                <img src="/static/frontend_assets/images/logo/6.png" class="img-fluid blur-up lazyload" alt="">
+                                <img src="{% static 'frontend_assets/images/logo/6.png' %}" class="img-fluid blur-up lazyload" alt="">
                             </a>
 
                             <div class="header-nav-middle">
@@ -391,7 +392,7 @@
                                                                     <div class="menu-img-banner">
                                                                         <a class="text-title"
                                                                             href="product-circle.html">
-                                                                            <img src="/static/frontend_assets/images/mega-menu.png"
+                                                                            <img src="{% static 'frontend_assets/images/mega-menu.png' %}"
                                                                                 alt="banner">
                                                                         </a>
                                                                     </div>
@@ -681,7 +682,7 @@
                                                     <li class="product-box-contain">
                                                         <div class="drop-cart">
                                                             <a href="product-left-thumbnail.html" class="drop-image">
-                                                                <img src="/static/frontend_assets/images/vegetable/product/1.png"
+                                                                <img src="{% static 'frontend_assets/images/vegetable/product/1.png' %}"
                                                                     class="blur-up lazyload" alt="">
                                                             </a>
 
@@ -700,7 +701,7 @@
                                                     <li class="product-box-contain">
                                                         <div class="drop-cart">
                                                             <a href="product-left-thumbnail.html" class="drop-image">
-                                                                <img src="/static/frontend_assets/images/vegetable/product/2.png"
+                                                                <img src="{% static 'frontend_assets/images/vegetable/product/2.png' %}"
                                                                     class="blur-up lazyload" alt="">
                                                             </a>
 
@@ -818,7 +819,7 @@
                     <div class="slider-animate">
                         <div>
                             <div class="home-contain rounded-0 p-0">
-                                <img src="/static/frontend_assets/images/fashion/home-banner/1.jpg"
+                                <img src="{% static 'frontend_assets/images/fashion/home-banner/1.jpg' %}"
                                     class="img-fluid bg-img blur-up lazyload" alt="">
                                 <div class="home-detail home-big-space p-center-left home-overlay position-relative">
                                     <div class="container-fluid-lg">
@@ -852,7 +853,7 @@
                         <div>
                             <a href="shop-left-sidebar.html" class="category-box category-dark wow fadeInUp">
                                 <div>
-                                    <img src="https://themes.pixelstrap.com/fastkart//static/frontend_assets/svg/fashion/t-shirt.svg" class="blur-up lazyload" alt="">
+                                    <img src="https://themes.pixelstrap.com/fastkart/assets/svg/fashion/t-shirt.svg" class="blur-up lazyload" alt="">
                                     <h5>tops</h5>
                                 </div>
                             </a>
@@ -862,7 +863,7 @@
                             <a href="shop-left-sidebar.html" class="category-box category-dark wow fadeInUp"
                                 data-wow-delay="0.05s">
                                 <div>
-                                    <img src="https://themes.pixelstrap.com/fastkart//static/frontend_assets/svg/fashion/jeans.svg" class="blur-up lazyload" alt="">
+                                    <img src="https://themes.pixelstrap.com/fastkart/assets/svg/fashion/jeans.svg" class="blur-up lazyload" alt="">
                                     <h5>bottoms</h5>
                                 </div>
                             </a>
@@ -872,7 +873,7 @@
                             <a href="shop-left-sidebar.html" class="category-box category-dark wow fadeInUp"
                                 data-wow-delay="0.1s">
                                 <div>
-                                    <img src="https://themes.pixelstrap.com/fastkart//static/frontend_assets/svg/fashion/cords.svg" class="blur-up lazyload" alt="">
+                                    <img src="https://themes.pixelstrap.com/fastkart/assets/svg/fashion/cords.svg" class="blur-up lazyload" alt="">
                                     <h5>co-ords</h5>
                                 </div>
                             </a>
@@ -882,7 +883,7 @@
                             <a href="shop-left-sidebar.html" class="category-box category-dark wow fadeInUp"
                                 data-wow-delay="0.15s">
                                 <div>
-                                    <img src="https://themes.pixelstrap.com/fastkart//static/frontend_assets/svg/fashion/jacket.svg" class="blur-up lazyload" alt="">
+                                    <img src="https://themes.pixelstrap.com/fastkart/assets/svg/fashion/jacket.svg" class="blur-up lazyload" alt="">
                                     <h5>jackets</h5>
                                 </div>
                             </a>
@@ -892,7 +893,7 @@
                             <a href="shop-left-sidebar.html" class="category-box category-dark wow fadeInUp"
                                 data-wow-delay="0.2s">
                                 <div>
-                                    <img src="https://themes.pixelstrap.com/fastkart//static/frontend_assets/svg/fashion/blzer.svg" class="blur-up lazyload" alt="">
+                                    <img src="https://themes.pixelstrap.com/fastkart/assets/svg/fashion/blzer.svg" class="blur-up lazyload" alt="">
                                     <h5>blazers</h5>
                                 </div>
                             </a>
@@ -902,7 +903,7 @@
                             <a href="shop-left-sidebar.html" class="category-box category-dark wow fadeInUp"
                                 data-wow-delay="0.25s">
                                 <div>
-                                    <img src="https://themes.pixelstrap.com/fastkart//static/frontend_assets/svg/fashion/shapewear.svg" class="blur-up lazyload" alt="">
+                                    <img src="https://themes.pixelstrap.com/fastkart/assets/svg/fashion/shapewear.svg" class="blur-up lazyload" alt="">
                                     <h5>shapewear</h5>
                                 </div>
                             </a>
@@ -912,7 +913,7 @@
                             <a href="shop-left-sidebar.html" class="category-box category-dark wow fadeInUp"
                                 data-wow-delay="0.3s">
                                 <div>
-                                    <img src="https://themes.pixelstrap.com/fastkart//static/frontend_assets/svg/fashion/sleepwear.svg" class="blur-up lazyload" alt="">
+                                    <img src="https://themes.pixelstrap.com/fastkart/assets/svg/fashion/sleepwear.svg" class="blur-up lazyload" alt="">
                                     <h5>sleepwear</h5>
                                 </div>
                             </a>
@@ -922,7 +923,7 @@
                             <a href="shop-left-sidebar.html" class="category-box category-dark wow fadeInUp"
                                 data-wow-delay="0.35s">
                                 <div>
-                                    <img src="https://themes.pixelstrap.com/fastkart//static/frontend_assets/svg/fashion/swimwear.svg" class="blur-up lazyload" alt="">
+                                    <img src="https://themes.pixelstrap.com/fastkart/assets/svg/fashion/swimwear.svg" class="blur-up lazyload" alt="">
                                     <h5>swimwear</h5>
                                 </div>
                             </a>
@@ -932,7 +933,7 @@
                             <a href="shop-left-sidebar.html" class="category-box category-dark wow fadeInUp"
                                 data-wow-delay="0.4s">
                                 <div>
-                                    <img src="https://themes.pixelstrap.com/fastkart//static/frontend_assets/svg/fashion/gown.svg" class="blur-up lazyload" alt="">
+                                    <img src="https://themes.pixelstrap.com/fastkart/assets/svg/fashion/gown.svg" class="blur-up lazyload" alt="">
                                     <h5>Gown</h5>
                                 </div>
                             </a>
@@ -957,7 +958,7 @@
                             <div class="product-box-5 wow fadeInUp">
                                 <div class="product-image">
                                     <a href="product-left-thumbnail.html">
-                                        <img src="/static/frontend_assets/images/fashion/product/1.jpg"
+                                        <img src="{% static 'frontend_assets/images/fashion/product/1.jpg' %}"
                                             class="img-fluid blur-up lazyload bg-img" alt="">
                                     </a>
 
@@ -1004,7 +1005,7 @@
                             <div class="product-box-5 wow fadeInUp">
                                 <div class="product-image">
                                     <a href="product-left-thumbnail.html">
-                                        <img src="/static/frontend_assets/images/fashion/product/2.jpg"
+                                        <img src="{% static 'frontend_assets/images/fashion/product/2.jpg' %}"
                                             class="img-fluid blur-up lazyload bg-img" alt="">
                                     </a>
 
@@ -1051,7 +1052,7 @@
                             <div class="product-box-5 wow fadeInUp">
                                 <div class="product-image">
                                     <a href="product-left-thumbnail.html">
-                                        <img src="/static/frontend_assets/images/fashion/product/3.jpg"
+                                        <img src="{% static 'frontend_assets/images/fashion/product/3.jpg' %}"
                                             class="img-fluid blur-up lazyload bg-img" alt="">
                                     </a>
 
@@ -1098,7 +1099,7 @@
                             <div class="product-box-5 wow fadeInUp">
                                 <div class="product-image">
                                     <a href="product-left-thumbnail.html">
-                                        <img src="/static/frontend_assets/images/fashion/product/4.jpg"
+                                        <img src="{% static 'frontend_assets/images/fashion/product/4.jpg' %}"
                                             class="img-fluid blur-up lazyload bg-img" alt="">
                                     </a>
 
@@ -1145,7 +1146,7 @@
                             <div class="product-box-5 wow fadeInUp">
                                 <div class="product-image">
                                     <a href="product-left-thumbnail.html">
-                                        <img src="/static/frontend_assets/images/fashion/product/5.jpg"
+                                        <img src="{% static 'frontend_assets/images/fashion/product/5.jpg' %}"
                                             class="img-fluid blur-up lazyload bg-img" alt="">
                                     </a>
 
@@ -1192,7 +1193,7 @@
                             <div class="product-box-5 wow fadeInUp">
                                 <div class="product-image">
                                     <a href="product-left-thumbnail.html">
-                                        <img src="/static/frontend_assets/images/fashion/product/6.jpg"
+                                        <img src="{% static 'frontend_assets/images/fashion/product/6.jpg' %}"
                                             class="img-fluid blur-up lazyload bg-img" alt="">
                                     </a>
 
@@ -1248,7 +1249,7 @@
             <div class="row g-md-4 g-3">
                 <div class="col-xxl-8 col-xl-12 col-md-7">
                     <div class="banner-contain hover-effect">
-                        <img src="/static/frontend_assets/images/fashion/banner/1.jpg" class="bg-img blur-up lazyload" alt="">
+                        <img src="{% static 'frontend_assets/images/fashion/banner/1.jpg' %}" class="bg-img blur-up lazyload" alt="">
                         <div class="banner-details p-center-left p-4">
                             <div>
                                 <h2 class="text-kaushan fw-normal theme-color">Get Ready To</h2>
@@ -1265,7 +1266,7 @@
 
                 <div class="col-xxl-4 col-xl-12 col-md-5">
                     <a href="shop-left-sidebar.html" class="banner-contain hover-effect h-100">
-                        <img src="/static/frontend_assets/images/fashion/banner/2.jpg" class="bg-img blur-up lazyload" alt="">
+                        <img src="{% static 'frontend_assets/images/fashion/banner/2.jpg' %}" class="bg-img blur-up lazyload" alt="">
                         <div class="banner-details p-center-left p-4 h-100">
                             <div>
                                 <h2 class="text-kaushan fw-normal text-danger">20% Off</h2>
@@ -1288,7 +1289,7 @@
                 <div class="col-xxl-3 col-lg-4 d-lg-block d-none">
                     <div class="ratio_156">
                         <div class="banner-contain-2 hover-effect">
-                            <img src="/static/frontend_assets/images/fashion/banner/3.jpg" class="bg-img blur-up lazyload" alt="">
+                            <img src="{% static 'frontend_assets/images/fashion/banner/3.jpg' %}" class="bg-img blur-up lazyload" alt="">
                             <div class="banner-detail-2 p-bottom-center text-center home-p-medium">
                                 <div>
                                     <h2 class="text-qwitcher">Passion Meet</h2>
@@ -1313,7 +1314,7 @@
 
                                         <div class="top-selling-contain wow fadeInUp">
                                             <a href="product-left-thumbnail.html" class="top-selling-image">
-                                                <img src="/static/frontend_assets/images/fashion/product/1.jpg"
+                                                <img src="{% static 'frontend_assets/images/fashion/product/1.jpg' %}"
                                                     class="img-fluid blur-up lazyload" alt="">
                                             </a>
 
@@ -1347,7 +1348,7 @@
 
                                         <div class="top-selling-contain wow fadeIn" data-wow-delay="0.05s">
                                             <a href="product-left-thumbnail.html" class="top-selling-image">
-                                                <img src="/static/frontend_assets/images/fashion/product/2.jpg"
+                                                <img src="{% static 'frontend_assets/images/fashion/product/2.jpg' %}"
                                                     class="img-fluid blur-up lazyload" alt="">
                                             </a>
 
@@ -1381,7 +1382,7 @@
 
                                         <div class="top-selling-contain wow fadeIn" data-wow-delay="0.1s">
                                             <a href="product-left-thumbnail.html" class="top-selling-image">
-                                                <img src="/static/frontend_assets/images/fashion/product/3.jpg"
+                                                <img src="{% static 'frontend_assets/images/fashion/product/3.jpg' %}"
                                                     class="img-fluid blur-up lazyload" alt="">
                                             </a>
 
@@ -1415,7 +1416,7 @@
 
                                         <div class="top-selling-contain wow fadeIn" data-wow-delay="0.15s">
                                             <a href="product-left-thumbnail.html" class="top-selling-image">
-                                                <img src="/static/frontend_assets/images/fashion/product/4.jpg"
+                                                <img src="{% static 'frontend_assets/images/fashion/product/4.jpg' %}"
                                                     class="img-fluid blur-up lazyload" alt="">
                                             </a>
 
@@ -1461,7 +1462,7 @@
 
                                         <div class="top-selling-contain wow fadeInUp">
                                             <a href="product-left-thumbnail.html" class="top-selling-image">
-                                                <img src="/static/frontend_assets/images/fashion/product/5.jpg"
+                                                <img src="{% static 'frontend_assets/images/fashion/product/5.jpg' %}"
                                                     class="img-fluid blur-up lazyload" alt="">
                                             </a>
 
@@ -1495,7 +1496,7 @@
 
                                         <div class="top-selling-contain wow fadeIn" data-wow-delay="0.05s">
                                             <a href="product-left-thumbnail.html" class="top-selling-image">
-                                                <img src="/static/frontend_assets/images/fashion/product/6.jpg"
+                                                <img src="{% static 'frontend_assets/images/fashion/product/6.jpg' %}"
                                                     class="img-fluid blur-up lazyload" alt="">
                                             </a>
 
@@ -1529,7 +1530,7 @@
 
                                         <div class="top-selling-contain wow fadeIn" data-wow-delay="0.1s">
                                             <a href="product-left-thumbnail.html" class="top-selling-image">
-                                                <img src="/static/frontend_assets/images/fashion/product/7.jpg"
+                                                <img src="{% static 'frontend_assets/images/fashion/product/7.jpg' %}"
                                                     class="img-fluid blur-up lazyload" alt="">
                                             </a>
 
@@ -1563,7 +1564,7 @@
 
                                         <div class="top-selling-contain wow fadeIn" data-wow-delay="0.15s">
                                             <a href="product-left-thumbnail.html" class="top-selling-image">
-                                                <img src="/static/frontend_assets/images/fashion/product/8.jpg"
+                                                <img src="{% static 'frontend_assets/images/fashion/product/8.jpg' %}"
                                                     class="img-fluid blur-up lazyload" alt="">
                                             </a>
 
@@ -1609,7 +1610,7 @@
 
                                         <div class="top-selling-contain wow fadeInUp">
                                             <a href="product-left-thumbnail.html" class="top-selling-image">
-                                                <img src="/static/frontend_assets/images/fashion/product/9.jpg"
+                                                <img src="{% static 'frontend_assets/images/fashion/product/9.jpg' %}"
                                                     class="img-fluid blur-up lazyload" alt="">
                                             </a>
 
@@ -1643,7 +1644,7 @@
 
                                         <div class="top-selling-contain wow fadeIn" data-wow-delay="0.05s">
                                             <a href="product-left-thumbnail.html" class="top-selling-image">
-                                                <img src="/static/frontend_assets/images/fashion/product/10.jpg"
+                                                <img src="{% static 'frontend_assets/images/fashion/product/10.jpg' %}"
                                                     class="img-fluid blur-up lazyload" alt="">
                                             </a>
 
@@ -1677,7 +1678,7 @@
 
                                         <div class="top-selling-contain wow fadeIn" data-wow-delay="0.1s">
                                             <a href="product-left-thumbnail.html" class="top-selling-image">
-                                                <img src="/static/frontend_assets/images/fashion/product/11.jpg"
+                                                <img src="{% static 'frontend_assets/images/fashion/product/11.jpg' %}"
                                                     class="img-fluid blur-up lazyload" alt="">
                                             </a>
 
@@ -1711,7 +1712,7 @@
 
                                         <div class="top-selling-contain wow fadeIn" data-wow-delay="0.15s">
                                             <a href="product-left-thumbnail.html" class="top-selling-image">
-                                                <img src="/static/frontend_assets/images/fashion/product/12.jpg"
+                                                <img src="{% static 'frontend_assets/images/fashion/product/12.jpg' %}"
                                                     class="img-fluid blur-up lazyload" alt="">
                                             </a>
 
@@ -1758,7 +1759,7 @@
     <section class="section-t-space">
         <div class="container-fluid-lg">
             <div class="banner-contain">
-                <img src="/static/frontend_assets/images/fashion/banner/4.jpg" class="bg-img blur-up lazyload" alt="">
+                <img src="{% static 'frontend_assets/images/fashion/banner/4.jpg' %}" class="bg-img blur-up lazyload" alt="">
                 <div class="banner-details p-center p-4 text-white text-center">
                     <div>
                         <h3 class="lh-base fw-bold offer-text">Get $3 Cashback! Min Order of $30</h3>
@@ -1784,7 +1785,7 @@
                             <div class="product-box-5 wow fadeInUp">
                                 <div class="product-image">
                                     <a href="product-left-thumbnail.html">
-                                        <img src="/static/frontend_assets/images/fashion/product/7.jpg"
+                                        <img src="{% static 'frontend_assets/images/fashion/product/7.jpg' %}"
                                             class="img-fluid blur-up lazyload bg-img" alt="">
                                     </a>
 
@@ -1831,7 +1832,7 @@
                             <div class="product-box-5 wow fadeInUp">
                                 <div class="product-image">
                                     <a href="product-left-thumbnail.html">
-                                        <img src="/static/frontend_assets/images/fashion/product/8.jpg"
+                                        <img src="{% static 'frontend_assets/images/fashion/product/8.jpg' %}"
                                             class="img-fluid blur-up lazyload bg-img" alt="">
                                     </a>
 
@@ -1878,7 +1879,7 @@
                             <div class="product-box-5 wow fadeInUp">
                                 <div class="product-image">
                                     <a href="product-left-thumbnail.html">
-                                        <img src="/static/frontend_assets/images/fashion/product/9.jpg"
+                                        <img src="{% static 'frontend_assets/images/fashion/product/9.jpg' %}"
                                             class="img-fluid blur-up lazyload bg-img" alt="">
                                     </a>
 
@@ -1925,7 +1926,7 @@
                             <div class="product-box-5 wow fadeInUp">
                                 <div class="product-image">
                                     <a href="product-left-thumbnail.html">
-                                        <img src="/static/frontend_assets/images/fashion/product/10.jpg"
+                                        <img src="{% static 'frontend_assets/images/fashion/product/10.jpg' %}"
                                             class="img-fluid blur-up lazyload bg-img" alt="">
                                     </a>
 
@@ -1972,7 +1973,7 @@
                             <div class="product-box-5 wow fadeInUp">
                                 <div class="product-image">
                                     <a href="product-left-thumbnail.html">
-                                        <img src="/static/frontend_assets/images/fashion/product/11.jpg"
+                                        <img src="{% static 'frontend_assets/images/fashion/product/11.jpg' %}"
                                             class="img-fluid blur-up lazyload bg-img" alt="">
                                     </a>
 
@@ -2019,7 +2020,7 @@
                             <div class="product-box-5 wow fadeInUp">
                                 <div class="product-image">
                                     <a href="product-left-thumbnail.html">
-                                        <img src="/static/frontend_assets/images/fashion/product/12.jpg"
+                                        <img src="{% static 'frontend_assets/images/fashion/product/12.jpg' %}"
                                             class="img-fluid blur-up lazyload bg-img" alt="">
                                     </a>
 
@@ -2081,7 +2082,7 @@
                             <div class="product-box-5 wow fadeInUp">
                                 <div class="product-image">
                                     <a href="product-left-thumbnail.html">
-                                        <img src="/static/frontend_assets/images/fashion/product/1.jpg"
+                                        <img src="{% static 'frontend_assets/images/fashion/product/1.jpg' %}"
                                             class="img-fluid blur-up lazyload bg-img" alt="">
                                     </a>
 
@@ -2128,7 +2129,7 @@
                             <div class="product-box-5 wow fadeInUp">
                                 <div class="product-image">
                                     <a href="product-left-thumbnail.html">
-                                        <img src="/static/frontend_assets/images/fashion/product/2.jpg"
+                                        <img src="{% static 'frontend_assets/images/fashion/product/2.jpg' %}"
                                             class="img-fluid blur-up lazyload bg-img" alt="">
                                     </a>
 
@@ -2175,7 +2176,7 @@
                             <div class="product-box-5 wow fadeInUp">
                                 <div class="product-image">
                                     <a href="product-left-thumbnail.html">
-                                        <img src="/static/frontend_assets/images/fashion/product/3.jpg"
+                                        <img src="{% static 'frontend_assets/images/fashion/product/3.jpg' %}"
                                             class="img-fluid blur-up lazyload bg-img" alt="">
                                     </a>
 
@@ -2222,7 +2223,7 @@
                             <div class="product-box-5 wow fadeInUp">
                                 <div class="product-image">
                                     <a href="product-left-thumbnail.html">
-                                        <img src="/static/frontend_assets/images/fashion/product/4.jpg"
+                                        <img src="{% static 'frontend_assets/images/fashion/product/4.jpg' %}"
                                             class="img-fluid blur-up lazyload bg-img" alt="">
                                     </a>
 
@@ -2269,7 +2270,7 @@
                             <div class="product-box-5 wow fadeInUp">
                                 <div class="product-image">
                                     <a href="product-left-thumbnail.html">
-                                        <img src="/static/frontend_assets/images/fashion/product/5.jpg"
+                                        <img src="{% static 'frontend_assets/images/fashion/product/5.jpg' %}"
                                             class="img-fluid blur-up lazyload bg-img" alt="">
                                     </a>
 
@@ -2316,7 +2317,7 @@
                             <div class="product-box-5 wow fadeInUp">
                                 <div class="product-image">
                                     <a href="product-left-thumbnail.html">
-                                        <img src="/static/frontend_assets/images/fashion/product/6.jpg"
+                                        <img src="{% static 'frontend_assets/images/fashion/product/6.jpg' %}"
                                             class="img-fluid blur-up lazyload bg-img" alt="">
                                     </a>
 
@@ -2402,7 +2403,7 @@
                 <div class="row g-md-4 gy-sm-5">
                     <div class="col-xxl-3 col-xl-4 col-sm-6">
                         <a href="index.html" class="foot-logo theme-logo">
-                            <img src="/static/frontend_assets/images/logo/4.png" class="img-fluid blur-up lazyload" alt="">
+                            <img src="{% static 'frontend_assets/images/logo/4.png' %}" class="img-fluid blur-up lazyload" alt="">
                         </a>
                         <p class="information-text information-text-2">it is a long established fact that a reader
                             will
@@ -2558,19 +2559,19 @@
 
                 <ul class="payment-box">
                     <li>
-                        <img src="/static/frontend_assets/images/icon/paymant/visa.png" class="blur-up lazyload" alt="">
+                        <img src="{% static 'frontend_assets/images/icon/paymant/visa.png' %}" class="blur-up lazyload" alt="">
                     </li>
                     <li>
-                        <img src="/static/frontend_assets/images/icon/paymant/discover.png" alt="" class="blur-up lazyload">
+                        <img src="{% static 'frontend_assets/images/icon/paymant/discover.png' %}" alt="" class="blur-up lazyload">
                     </li>
                     <li>
-                        <img src="/static/frontend_assets/images/icon/paymant/american.png" alt="" class="blur-up lazyload">
+                        <img src="{% static 'frontend_assets/images/icon/paymant/american.png' %}" alt="" class="blur-up lazyload">
                     </li>
                     <li>
-                        <img src="/static/frontend_assets/images/icon/paymant/master-card.png" alt="" class="blur-up lazyload">
+                        <img src="{% static 'frontend_assets/images/icon/paymant/master-card.png' %}" alt="" class="blur-up lazyload">
                     </li>
                     <li>
-                        <img src="/static/frontend_assets/images/icon/paymant/giro-pay.png" alt="" class="blur-up lazyload">
+                        <img src="{% static 'frontend_assets/images/icon/paymant/giro-pay.png' %}" alt="" class="blur-up lazyload">
                     </li>
                 </ul>
             </div>
@@ -2591,7 +2592,7 @@
                     <div class="row g-sm-4 g-2">
                         <div class="col-lg-6">
                             <div class="slider-image">
-                                <img src="/static/frontend_assets/images/product/category/1.jpg" class="img-fluid blur-up lazyload"
+                                <img src="{% static 'frontend_assets/images/product/category/1.jpg' %}" class="img-fluid blur-up lazyload"
                                     alt="">
                             </div>
                         </div>
@@ -2788,7 +2789,7 @@
     <div class="cookie-bar-box">
         <div class="cookie-box">
             <div class="cookie-image">
-                <img src="/static/frontend_assets/images/cookie-bar.png" class="blur-up lazyload" alt="">
+                <img src="{% static 'frontend_assets/images/cookie-bar.png' %}" class="blur-up lazyload" alt="">
                 <h2>Cookies!</h2>
             </div>
 
@@ -2823,7 +2824,7 @@
                             <li class="list-1">
                                 <div class="deal-offer-contain">
                                     <a href="shop-left-sidebar.html" class="deal-image">
-                                        <img src="/static/frontend_assets/images/vegetable/product/10.png" class="blur-up lazyload"
+                                        <img src="{% static 'frontend_assets/images/vegetable/product/10.png' %}" class="blur-up lazyload"
                                             alt="">
                                     </a>
 
@@ -2837,7 +2838,7 @@
                             <li class="list-2">
                                 <div class="deal-offer-contain">
                                     <a href="shop-left-sidebar.html" class="deal-image">
-                                        <img src="/static/frontend_assets/images/vegetable/product/11.png" class="blur-up lazyload"
+                                        <img src="{% static 'frontend_assets/images/vegetable/product/11.png' %}" class="blur-up lazyload"
                                             alt="">
                                     </a>
 
@@ -2851,7 +2852,7 @@
                             <li class="list-3">
                                 <div class="deal-offer-contain">
                                     <a href="shop-left-sidebar.html" class="deal-image">
-                                        <img src="/static/frontend_assets/images/vegetable/product/12.png" class="blur-up lazyload"
+                                        <img src="{% static 'frontend_assets/images/vegetable/product/12.png' %}" class="blur-up lazyload"
                                             alt="">
                                     </a>
 
@@ -2865,7 +2866,7 @@
                             <li class="list-1">
                                 <div class="deal-offer-contain">
                                     <a href="shop-left-sidebar.html" class="deal-image">
-                                        <img src="/static/frontend_assets/images/vegetable/product/13.png" class="blur-up lazyload"
+                                        <img src="{% static 'frontend_assets/images/vegetable/product/13.png' %}" class="blur-up lazyload"
                                             alt="">
                                     </a>
 
@@ -2943,40 +2944,40 @@
     <!-- Bg overlay End -->
 
     <!-- latest jquery-->
-    <script src="/static/frontend_assets/js/jquery-3.6.0.min.js"></script>
+    <script src="{% static 'frontend_assets/js/jquery-3.6.0.min.js' %}"></script>
 
     <!-- jquery ui-->
-    <script src="/static/frontend_assets/js/jquery-ui.min.js"></script>
+    <script src="{% static 'frontend_assets/js/jquery-ui.min.js' %}"></script>
 
     <!-- Bootstrap js-->
-    <script src="/static/frontend_assets/js/bootstrap/bootstrap.bundle.min.js"></script>
-    <script src="/static/frontend_assets/js/bootstrap/bootstrap-notify.min.js"></script>
-    <script src="/static/frontend_assets/js/bootstrap/popper.min.js"></script>
+    <script src="{% static 'frontend_assets/js/bootstrap/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'frontend_assets/js/bootstrap/bootstrap-notify.min.js' %}"></script>
+    <script src="{% static 'frontend_assets/js/bootstrap/popper.min.js' %}"></script>
 
     <!-- feather icon js-->
-    <script src="/static/frontend_assets/js/feather/feather.min.js"></script>
-    <script src="/static/frontend_assets/js/feather/feather-icon.js"></script>
+    <script src="{% static 'frontend_assets/js/feather/feather.min.js' %}"></script>
+    <script src="{% static 'frontend_assets/js/feather/feather-icon.js' %}"></script>
 
     <!-- Lazyload Js -->
-    <script src="/static/frontend_assets/js/lazysizes.min.js"></script>
+    <script src="{% static 'frontend_assets/js/lazysizes.min.js' %}"></script>
 
     <!-- Slick js-->
-    <script src="/static/frontend_assets/js/slick/slick.js"></script>
-    <script src="/static/frontend_assets/js/slick/slick-animation.min.js"></script>
-    <script src="/static/frontend_assets/js/slick/custom_slick.js"></script>
+    <script src="{% static 'frontend_assets/js/slick/slick.js' %}"></script>
+    <script src="{% static 'frontend_assets/js/slick/slick-animation.min.js' %}"></script>
+    <script src="{% static 'frontend_assets/js/slick/custom_slick.js' %}"></script>
 
     <!-- Auto Height Js -->
-    <script src="/static/frontend_assets/js/auto-height.js"></script>
+    <script src="{% static 'frontend_assets/js/auto-height.js' %}"></script>
 
     <!-- WOW js -->
-    <script src="/static/frontend_assets/js/wow.min.js"></script>
-    <script src="/static/frontend_assets/js/custom-wow.js"></script>
+    <script src="{% static 'frontend_assets/js/wow.min.js' %}"></script>
+    <script src="{% static 'frontend_assets/js/custom-wow.js' %}"></script>
 
     <!-- script js -->
-    <script src="/static/frontend_assets/js/script.js"></script>
+    <script src="{% static 'frontend_assets/js/script.js' %}"></script>
 
     <!-- theme setting js -->
-    <script src="/static/frontend_assets/js/theme-setting.js"></script>
+    <script src="{% static 'frontend_assets/js/theme-setting.js' %}"></script>
 </body>
 
 
