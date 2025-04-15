@@ -37,10 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    "products",
-    "category",
+    "dashboard.category",
     "dashboard",
     "frontend_home",
+    "dashboard.product_backend",
 ]
 
 MIDDLEWARE = [
@@ -122,8 +122,7 @@ import os
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'templates/kalavya_backend/assets'),
-    os.path.join(BASE_DIR, 'templates/kalavya_frontend/'),  # your custom folder
-    
+    os.path.join(BASE_DIR, 'templates/kalavya_frontend/'),  # your custom folder    
 ]
 
 # print(STATICFILES_DIRS)
