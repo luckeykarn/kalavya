@@ -1,52 +1,53 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
 
-<!-- Mirrored from themes.pixelstrap.com/fastkart/back-end/category.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 11 Apr 2025 18:28:30 GMT -->
+<!-- Mirrored from themes.pixelstrap.com/Kalavya/back-end/category.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 11 Apr 2025 18:28:30 GMT -->
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Fastkart admin is super flexible, powerful, clean &amp; modern responsive bootstrap 5 admin template with unlimited possibilities.">
+        content="Kalavya admin is super flexible, powerful, clean &amp; modern responsive bootstrap 5 admin template with unlimited possibilities.">
     <meta name="keywords"
-        content="admin template, Fastkart admin template, dashboard template, flat admin template, responsive admin template, web app">
+        content="admin template, Kalavya admin template, dashboard template, flat admin template, responsive admin template, web app">
     <meta name="author" content="pixelstrap">
-    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
-    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
-    <title>Fastkart - All Category</title>
+    <link rel="icon" href="{% static '/images/favicon.png'  %}" type="image/x-icon">
+    <link rel="shortcut icon" href="{% static '/images/favicon.png'  %}" type="image/x-icon">
+    <title>Kalavya - All Category</title>
     <!-- Google font-->
     <link
         href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
         rel="stylesheet">
 
     <!-- Fontawesome css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/vendors/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="{% static '/css/vendors/font-awesome.css' %}">
 
     <!-- Linear Icon css -->
-    <link rel="stylesheet" href="assets/css/linearicon.css">
+    <link rel="stylesheet" href="{% static '/css/linearicon.css' %}">
 
     <!-- remixicon css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/remixicon.css">
+    <link rel="stylesheet" type="text/css" href="{% static '/css/remixicon.css' %}">
 
     <!-- Data Table css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/datatables.css">
+    <link rel="stylesheet" type="text/css" href="{% static '/css/datatables.css' %}">
 
     <!-- Themify icon css-->
-    <link rel="stylesheet" type="text/css" href="assets/css/vendors/themify.css">
+    <link rel="stylesheet" type="text/css" href="{% static '/css/vendors/themify.css' %}">
 
     <!-- Feather icon css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/vendors/feather-icon.css">
+    <link rel="stylesheet" type="text/css" href="{% static '/css/vendors/feather-icon.css' %}">
 
     <!-- Plugins css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/vendors/scrollbar.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/vendors/animate.css">
+    <link rel="stylesheet" type="text/css" href="{% static '/css/vendors/scrollbar.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static '/css/vendors/animate.css' %}">
 
     <!-- Bootstrap css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/vendors/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="{% static '/css/vendors/bootstrap.css' %}">
 
     <!-- App css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="{% static '/css/style.css' %}">
 </head>
 
 <body>
@@ -64,14 +65,14 @@
                 <div class="header-logo-wrapper p-0">
                     <div class="logo-wrapper">
                         <a href="index.html">
-                            <img class="img-fluid main-logo" src="assets/images/logo/1.png" alt="logo">
-                            <img class="img-fluid white-logo" src="assets/images/logo/1-white.png" alt="logo">
+                            <img class="img-fluid main-logo" src="{% static '/images/logo/1.png'  %}" alt="logo">
+                            <img class="img-fluid white-logo" src="{% static '/images/logo/1-white.png'  %}" alt="logo">
                         </a>
                     </div>
                     <div class="toggle-sidebar">
                         <i class="status_toggle middle sidebar-toggle" data-feather="align-center"></i>
                         <a href="index.html">
-                            <img src="assets/images/logo/1.png" class="img-fluid" alt="">
+                            <img src="{% static '/images/logo/1.png' %}" class="img-fluid" alt="">
                         </a>
                     </div>
                 </div>
@@ -81,7 +82,7 @@
                         <div class="Typeahead Typeahead--twitterUsers">
                             <div class="u-posRelative">
                                 <input class="demo-input Typeahead-input form-control-plaintext w-100" type="text"
-                                    placeholder="Search Fastkart .." name="q" title="" autofocus>
+                                    placeholder="Search Kalavya .." name="q" title="" autofocus>
                                 <i class="close-search" data-feather="x"></i>
                                 <div class="spinner-border Typeahead-spinner" role="status">
                                     <span class="sr-only">Loading...</span>
@@ -145,7 +146,7 @@
                         </li>
                         <li class="profile-nav onhover-dropdown pe-0 me-0">
                             <div class="media profile-media">
-                                <img class="user-profile rounded-circle" src="assets/images/users/4.jpg" alt="">
+                                <img class="user-profile rounded-circle" src="{% static '/images/users/4.jpg'  %}" alt="">
                                 <div class="user-name-hide media-body">
                                     <span>Emay Walter</span>
                                     <p class="mb-0 font-roboto">Admin<i class="middle ri-arrow-down-s-line"></i></p>
@@ -199,7 +200,7 @@
                 <div>
                     <div class="logo-wrapper logo-wrapper-center">
                         <a href="index.html" data-bs-original-title="" title="">
-                            <img class="img-fluid for-white" src="assets/images/logo/full-white.png" alt="logo">
+                            <img class="img-fluid for-white" src="{% static '/images/logo/full-white.png' %}" alt="logo">
                         </a>
                         <div class="back-btn">
                             <i class="fa fa-angle-left"></i>
@@ -210,8 +211,8 @@
                     </div>
                     <div class="logo-icon-wrapper">
                         <a href="index.html">
-                            <img class="img-fluid main-logo main-white" src="assets/images/logo/1-white.png" alt="logo">
-                            <img class="img-fluid main-logo main-dark" src="assets/images/logo/logo-white.png"
+                            <img class="img-fluid main-logo main-white" src="{% static '/images/logo/1-white.png'  %}" alt="logo">
+                            <img class="img-fluid main-logo main-dark" src="{% static '/images/logo/logo-white.png'  %}"
                                 alt="logo">
                         </a>
                     </div>
@@ -463,14 +464,14 @@
 
                                                         <td>
                                                             <div class="table-image">
-                                                                <img src="assets/images/product/1.png" class="img-fluid"
+                                                                <img src="{% static '/images/product/1.png'  %}" class="img-fluid"
                                                                     alt="">
                                                             </div>
                                                         </td>
 
                                                         <td>
                                                             <div class="category-icon">
-                                                                <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/vegetable.svg"
+                                                                <img src="https://themes.pixelstrap.com/Kalavya/{% static '/svg/1/vegetable.svg' %}"
                                                                     class="img-fluid" alt="">
                                                             </div>
                                                         </td>
@@ -508,14 +509,14 @@
 
                                                         <td>
                                                             <div class="table-image">
-                                                                <img src="assets/images/product/2.png" class="img-fluid"
+                                                                <img src="{% static '/images/product/2.png'  %}" class="img-fluid"
                                                                     alt="">
                                                             </div>
                                                         </td>
 
                                                         <td>
                                                             <div class="category-icon">
-                                                                <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/cup.svg" class="img-fluid"
+                                                                <img src="https://themes.pixelstrap.com/Kalavya/{% static '/svg/1/cup.svg' %}" class="img-fluid"
                                                                     alt="">
                                                             </div>
                                                         </td>
@@ -553,14 +554,14 @@
 
                                                         <td>
                                                             <div class="table-image">
-                                                                <img src="assets/images/product/3.png" class="img-fluid"
+                                                                <img src="{% static '/images/product/3.png'  %}" class="img-fluid"
                                                                     alt="">
                                                             </div>
                                                         </td>
 
                                                         <td>
                                                             <div class="category-icon">
-                                                                <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/meats.svg" class="img-fluid"
+                                                                <img src="https://themes.pixelstrap.com/Kalavya/{% static '/svg/1/meats.svg' %}" class="img-fluid"
                                                                     alt="">
                                                             </div>
                                                         </td>
@@ -598,14 +599,14 @@
 
                                                         <td>
                                                             <div class="table-image">
-                                                                <img src="assets/images/product/4.png" class="img-fluid"
+                                                                <img src="{% static '/images/product/4.png'  %}" class="img-fluid"
                                                                     alt="">
                                                             </div>
                                                         </td>
 
                                                         <td>
                                                             <div class="category-icon">
-                                                                <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/breakfast.svg"
+                                                                <img src="https://themes.pixelstrap.com/Kalavya/{% static '/svg/1/breakfast.svg' %}"
                                                                     class="img-fluid" alt="">
                                                             </div>
                                                         </td>
@@ -643,14 +644,14 @@
 
                                                         <td>
                                                             <div class="table-image">
-                                                                <img src="assets/images/product/5.png" class="img-fluid"
+                                                                <img src="{% static '/images/product/5.png'  %}" class="img-fluid"
                                                                     alt="">
                                                             </div>
                                                         </td>
 
                                                         <td>
                                                             <div class="category-icon">
-                                                                <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/frozen.svg" class="img-fluid"
+                                                                <img src="https://themes.pixelstrap.com/Kalavya/{% static '/svg/1/frozen.svg' %}" class="img-fluid"
                                                                     alt="">
                                                             </div>
                                                         </td>
@@ -688,14 +689,14 @@
 
                                                         <td>
                                                             <div class="table-image">
-                                                                <img src="assets/images/product/6.png" class="img-fluid"
+                                                                <img src="{% static '/images/product/6.png'  %}" class="img-fluid"
                                                                     alt="">
                                                             </div>
                                                         </td>
 
                                                         <td>
                                                             <div class="category-icon">
-                                                                <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/biscuit.svg" class="img-fluid"
+                                                                <img src="https://themes.pixelstrap.com/Kalavya/{% static '/svg/1/biscuit.svg' %}" class="img-fluid"
                                                                     alt="">
                                                             </div>
                                                         </td>
@@ -733,14 +734,14 @@
 
                                                         <td>
                                                             <div class="table-image">
-                                                                <img src="assets/images/product/7.png" class="img-fluid"
+                                                                <img src="{% static '/images/product/7.png'  %}" class="img-fluid"
                                                                     alt="">
                                                             </div>
                                                         </td>
 
                                                         <td>
                                                             <div class="category-icon">
-                                                                <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/milk.svg" class="img-fluid"
+                                                                <img src="https://themes.pixelstrap.com/Kalavya/{% static '/svg/1/milk.svg' %}" class="img-fluid"
                                                                     alt="">
                                                             </div>
                                                         </td>
@@ -778,14 +779,14 @@
 
                                                         <td>
                                                             <div class="table-image">
-                                                                <img src="assets/images/product/11.png"
+                                                                <img src="{% static '/images/product/11.png'  %}"
                                                                     class="img-fluid" alt="">
                                                             </div>
                                                         </td>
 
                                                         <td>
                                                             <div class="category-icon">
-                                                                <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/grocery.svg" class="img-fluid"
+                                                                <img src="https://themes.pixelstrap.com/Kalavya/{% static '/svg/1/grocery.svg' %}" class="img-fluid"
                                                                     alt="">
                                                             </div>
                                                         </td>
@@ -823,14 +824,14 @@
 
                                                         <td>
                                                             <div class="table-image">
-                                                                <img src="assets/images/product/8.png" class="img-fluid"
+                                                                <img src="{% static '/images/product/8.png'  %}" class="img-fluid"
                                                                     alt="">
                                                             </div>
                                                         </td>
 
                                                         <td>
                                                             <div class="category-icon">
-                                                                <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/drink.svg" class="img-fluid"
+                                                                <img src="https://themes.pixelstrap.com/Kalavya/{% static '/svg/1/drink.svg' %}" class="img-fluid"
                                                                     alt="">
                                                             </div>
                                                         </td>
@@ -868,14 +869,14 @@
 
                                                         <td>
                                                             <div class="table-image">
-                                                                <img src="assets/images/product/9.png" class="img-fluid"
+                                                                <img src="{% static '/images/product/9.png'  %}" class="img-fluid"
                                                                     alt="">
                                                             </div>
                                                         </td>
 
                                                         <td>
                                                             <div class="category-icon">
-                                                                <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/milk.svg" class="img-fluid"
+                                                                <img src="https://themes.pixelstrap.com/Kalavya/{% static '/svg/1/milk.svg' %}" class="img-fluid"
                                                                     alt="">
                                                             </div>
                                                         </td>
@@ -913,14 +914,14 @@
 
                                                         <td>
                                                             <div class="table-image">
-                                                                <img src="assets/images/product/10.png"
+                                                                <img src="{% static '/images/product/10.png'  %}"
                                                                     class="img-fluid" alt="">
                                                             </div>
                                                         </td>
 
                                                         <td>
                                                             <div class="category-icon">
-                                                                <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/pet.svg" class="img-fluid"
+                                                                <img src="https://themes.pixelstrap.com/Kalavya/{% static '/svg/1/pet.svg' %}" class="img-fluid"
                                                                     alt="">
                                                             </div>
                                                         </td>
@@ -959,14 +960,14 @@
                         </div>
                     </div>
                 </div>
-                <!-- All User Table Ends-->
+                <!-- All User Table Ends -->
 
                 <div class="container-fluid">
                     <!-- footer start-->
                     <footer class="footer">
                         <div class="row">
                             <div class="col-md-12 footer-copyright text-center">
-                                <p class="mb-0">Copyright 2022 © Fastkart theme by pixelstrap</p>
+                                <p class="mb-0">Copyright 2022 © Kalavya theme by pixelstrap</p>
                             </div>
                         </div>
                     </footer>
@@ -1050,41 +1051,41 @@
     <!-- Delete Modal Box End -->
 
     <!-- latest js -->
-    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="{% static '/js/jquery-3.6.0.min.js' %}"></script>
 
     <!-- Bootstrap js -->
-    <script src="assets/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="{% static '/js/bootstrap/bootstrap.bundle.min.js' %}"></script>
 
     <!-- feather icon js -->
-    <script src="assets/js/icons/feather-icon/feather.min.js"></script>
-    <script src="assets/js/icons/feather-icon/feather-icon.js"></script>
+    <script src="{% static '/js/icons/feather-icon/feather.min.js' %}"></script>
+    <script src="{% static '/js/icons/feather-icon/feather-icon.js' %}"></script>
 
     <!-- scrollbar simplebar js -->
-    <script src="assets/js/scrollbar/simplebar.js"></script>
-    <script src="assets/js/scrollbar/custom.js"></script>
+    <script src="{% static '/js/scrollbar/simplebar.js' %}"></script>
+    <script src="{% static '/js/scrollbar/custom.js' %}"></script>
 
     <!-- customizer js -->
-    <script src="assets/js/customizer.js"></script>
+    <script src="{% static '/js/customizer.js' %}"></script>
 
     <!-- Sidebar js -->
-    <script src="assets/js/config.js"></script>
+    <script src="{% static '/js/config.js' %}"></script>
 
     <!-- Plugins JS -->
-    <script src="assets/js/sidebar-menu.js"></script>
-    <script src="assets/js/notify/bootstrap-notify.min.js"></script>
-    <script src="assets/js/notify/index.js"></script>
+    <script src="{% static '/js/sidebar-menu.js' %}"></script>
+    <script src="{% static '/js/notify/bootstrap-notify.min.js' %}"></script>
+    <script src="{% static '/js/notify/index.js' %}"></script>
 
     <!-- Data table js -->
-    <script src="assets/js/jquery.dataTables.js"></script>
-    <script src="assets/js/custom-data-table.js"></script>
+    <script src="{% static '/js/jquery.dataTables.js' %}"></script>
+    <script src="{% static '/js/custom-data-table.js' %}"></script>
 
     <!-- sidebar effect -->
-    <script src="assets/js/sidebareffect.js"></script>
+    <script src="{% static '/js/sidebareffect.js' %}"></script>
 
     <!-- Theme js -->
-    <script src="assets/js/script.js"></script>
+    <script src="{% static '/js/script.js' %}"></script>
 </body>
 
 
-<!-- Mirrored from themes.pixelstrap.com/fastkart/back-end/category.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 11 Apr 2025 18:28:30 GMT -->
+<!-- Mirrored from themes.pixelstrap.com/Kalavya/back-end/category.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 11 Apr 2025 18:28:30 GMT -->
 </html>
